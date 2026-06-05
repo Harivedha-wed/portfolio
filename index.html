@@ -499,6 +499,34 @@
       border: 1px solid rgba(26,58,92,0.15);
     }
 
+    /* ── PROJECT LIVE BUTTON ── */
+    .project-live-wrap { margin-top: 1.2rem; text-align: center; }
+    .project-live-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--accent2);
+      color: #ffffff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.55rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.25s;
+      box-shadow: 0 3px 14px rgba(184,146,58,0.25);
+    }
+    .project-live-btn:hover {
+      background: #9a7a2e;
+      color: #ffffff;
+      box-shadow: 0 6px 22px rgba(184,146,58,0.38);
+      transform: translateY(-2px);
+    }
+    .project-live-btn:hover .project-live-arrow { transform: translateX(4px); }
+    .project-live-arrow { transition: transform 0.2s; }
+
     /* ── EDUCATION ── */
     #education { background: var(--surface); }
     .edu-card {
@@ -941,7 +969,7 @@
           <div class="project-header">
             <div class="project-icon icon-blue"><i class="fas fa-clinic-medical"></i></div>
             <div class="project-links">
-              <button class="project-link-btn" title="Frontend Project"><i class="fas fa-external-link-alt"></i></button>
+              <a href="https://harivedha-wed.github.io/pharmacy/index.html" target="_blank" class="project-link-btn" title="View Live Site"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
@@ -954,6 +982,12 @@
               <span class="tech-tag">JavaScript</span>
               <span class="tech-tag">Responsive Design</span>
             </div>
+            <div class="project-live-wrap">
+              <a href="https://harivedha-wed.github.io/pharmacy/index.html" target="_blank" class="project-live-btn">
+                <i class="fas fa-external-link-alt"></i> View Project
+                <i class="fas fa-arrow-right project-live-arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -963,7 +997,7 @@
           <div class="project-header">
             <div class="project-icon icon-orange"><i class="fas fa-briefcase"></i></div>
             <div class="project-links">
-              <button class="project-link-btn" title="Internship Project"><i class="fas fa-external-link-alt"></i></button>
+              <a href="https://harivedha-wed.github.io/Business-Management/" target="_blank" class="project-link-btn" title="View Live Site"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
@@ -973,8 +1007,36 @@
               <span class="tech-tag">HTML</span>
               <span class="tech-tag">CSS</span>
               <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">PHP</span>
-              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">CSS Animations</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+            <div class="project-live-wrap">
+              <a href="https://harivedha-wed.github.io/Business-Management/" target="_blank" class="project-live-btn">
+                <i class="fas fa-external-link-alt"></i> View Project
+                <i class="fas fa-arrow-right project-live-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4: Hostel Management System -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:rgba(184,146,58,0.12);color:var(--accent2)"><i class="fas fa-building"></i></div>
+            <div class="project-links">
+              <button class="project-link-btn" title="Full Stack Project"><i class="fas fa-external-link-alt"></i></button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">Hostel Management System</div>
+            <p class="project-desc">A full-featured hostel management system built for students, wardens, and admins using HTML, CSS, JavaScript, and Bootstrap.</p>
+            <div class="project-tags">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">Bootstrap 5</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Role-Based Access</span>
             </div>
           </div>
         </div>
